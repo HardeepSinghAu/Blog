@@ -1,0 +1,16 @@
+
+<h1>Employment made easy</h1>
+
+
+<ul>
+    <% @articles.each do |article| %>
+        <li>
+            <%= article.title %>
+        </li>
+    <% end %>
+</ul>
+
+
+<p>
+<%= @time %>
+</p>
